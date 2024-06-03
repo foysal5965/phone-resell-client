@@ -70,7 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 <li>
-Description of assignment
+Description of the project
 </li>
 <li>This is phone reseleing website</li>
 <li>The home page have a resposive navbar and also a banner</li>
