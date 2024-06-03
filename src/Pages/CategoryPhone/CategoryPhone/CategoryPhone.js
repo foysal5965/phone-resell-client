@@ -7,6 +7,7 @@ import PhonesCard from '../PhonesCard/PhonesCard';
 
 const CategoryPhone = () => {
     const phones= useLoaderData()
+    // console.log(phone)
     const [phone, setPhone]=useState(null)
    
     return (

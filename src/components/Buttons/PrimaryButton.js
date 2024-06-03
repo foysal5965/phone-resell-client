@@ -1,6 +1,7 @@
 import React from 'react';
 
 const PrimaryButton = ({ children, classes, handler }) => {
+  // console.log(classes)
     return (
         <div>
             <button

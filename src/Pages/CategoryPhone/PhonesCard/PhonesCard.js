@@ -3,6 +3,7 @@ import PrimaryButton from '../../../components/Buttons/PrimaryButton';
 
 const PhonesCard = ({phone,setPhone}) => {
     const {name,location,img,resel_price, original_price, seler_name, post_date,yearsOf_use}=phone;
+    // console.log(name)
     return (
         <div>
             <div className="card w-96 bg-base-100 shadow-xl">

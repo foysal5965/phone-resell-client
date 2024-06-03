@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 
 const useAdmin=email=>{
     const [isAdmin,setIsAdmin]= useState(false)
+    // console.log(isAdmin)
     const[isAdminLoading,setIsAdminLoading]= useState(true)
     useEffect(()=>{
         fetch(`https://phone-saler.vercel.app/users/admin/${email}`)

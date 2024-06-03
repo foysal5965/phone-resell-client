@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 
 const useToken = email => {
     const [token, setToken] = useState('')
-
+    // console.log()token
     useEffect(() => {
         if (email) {
             fetch(`https://phone-saler.vercel.app/jwt?email=${email}`)

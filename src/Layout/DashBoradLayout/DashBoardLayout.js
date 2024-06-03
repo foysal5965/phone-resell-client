@@ -7,6 +7,7 @@ import Navbar from '../../Shared/Navbar/Navbar';
 
 const DashBoardLayout = () => {
     const { user } = useContext(AuthContext)
+    // console.log(user)
     const [isAdmin] = useAdmin(user?.email)
     const[isSeller]= useSeller(user?.email)
     return (
